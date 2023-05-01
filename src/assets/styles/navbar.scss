@@ -1,2 +1,13 @@
 .navbar {
+  @apply mt-[4rem] px-[16rem];
+  & ul {
+    @apply flex items-center justify-between;
+    & li {
+      @apply text-[2.2rem] h-[4.8rem] flex items-center;
+      color: $color-burgundy-heavy;
+    }
+    & li:nth-of-type(4) {
+      @apply h-[unset];
+    }
+  }
 }

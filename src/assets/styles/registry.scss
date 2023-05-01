@@ -1,0 +1,6 @@
+.registry {
+  @apply my-[12rem];
+  & main {
+    @apply mt-[8rem] gap-[4rem] flex items-center justify-center;
+  }
+}

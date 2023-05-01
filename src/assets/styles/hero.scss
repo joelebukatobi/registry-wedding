@@ -1,0 +1,26 @@
+.hero {
+  @apply w-full;
+  //
+  @apply my-[12rem] flex flex-col items-center justify-center;
+  //
+  &_date {
+    //
+    @apply text-center;
+    //
+    & h1 {
+      color: $color-burgundy;
+    }
+    & h4 {
+      color: $color-burgundy-heavy;
+    }
+  }
+
+  &_image {
+    //
+    @apply w-[85%] mt-[12.8rem];
+    //
+    & img {
+      @apply w-full;
+    }
+  }
+}

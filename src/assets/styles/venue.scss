@@ -1,0 +1,36 @@
+.venue {
+  @apply my-[12rem] w-full  px-[8rem];
+  //
+  &_top {
+    @apply w-[100%] flex items-center justify-between;
+  }
+
+  &_bottom {
+    @apply w-[100%] flex justify-between mt-[20rem];
+  }
+
+  //
+  &_left {
+    @apply w-[40%] space-y-[3.2rem];
+    //
+    & p:first-of-type {
+      color: $color-onion;
+    }
+    & h2 {
+      color: $color-burgundy;
+    }
+  }
+
+  &_right {
+    @apply w-[34.4%];
+  }
+
+  &_card {
+    & p:first-of-type {
+      color: $color-burgundy;
+    }
+    //
+    @apply space-y-[3.2rem] pb-[6.4rem];
+    //
+  }
+}

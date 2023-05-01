@@ -1,0 +1,34 @@
+.party {
+  @apply my-[12rem] px-[8rem];
+  & header {
+    @apply flex-col items-center justify-center;
+    p:first-of-type {
+      @apply w-full text-center;
+    }
+
+    & div {
+      @apply flex gap-x-[3.2rem] mt-[3.2rem];
+
+      & h2 {
+        color: $color-burgundy;
+        &:hover {
+          @apply underline cursor-pointer;
+
+          color: $color-burgundy !important;
+        }
+      }
+    }
+  }
+
+  &_row {
+    @apply flex justify-between px-[3.2rem];
+
+    & figure {
+      @apply flex flex-col items-center justify-center;
+      & img {
+        @apply h-[20rem] w-[20rem] mb-[2.4rem];
+        border: 0.3rem solid $color-onion;
+      }
+    }
+  }
+}

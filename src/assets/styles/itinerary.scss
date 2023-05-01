@@ -1,0 +1,19 @@
+.itinerary {
+  @apply my-[12rem] flex flex-col items-center justify-center;
+
+  &_card {
+    @apply w-[61.66%] mt-[6.4rem] flex justify-between;
+    & main {
+      @apply w-[12%];
+      & p {
+        color: $color-onion;
+      }
+    }
+    & aside {
+      @apply w-[65%];
+      & h3 {
+        color: $color-burgundy;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.story {
+  @apply w-full;
+  //
+  @apply my-[12rem] flex flex-col items-center justify-center;
+  //
+  &_image {
+    //
+    @apply w-[69.93%] mt-[12rem];
+    //
+    & img {
+      @apply w-full;
+    }
+  }
+}
