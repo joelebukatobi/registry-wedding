@@ -1,0 +1,48 @@
+// Color Variables //
+// ---------------------------------------------------------------------//
+$color-white: #fcf9f7;
+$color-black: #000000;
+$color-burgundy: #73001d;
+$color-onion: #ba96a4;
+$color-burgundy-heavy: #0d0003;
+
+// Font Variables //
+// ---------------------------------------------------------------------//
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+$font-main: 'Montaga', serif;
+
+// Styles //
+// ---------------------------------------------------------------------//
+// body::-webkit-scrollbar {
+//   width: 0.5rem;
+//   &:hover {
+//     width: 1rem;
+//   }
+//   &-track {
+//     background: $color-dark-orange;
+//   }
+//   &-thumb {
+//     background: rgba($color-off-white, 0.05);
+//     &:hover {
+//       background: rgba($color-off-white, 0.2);
+//     }
+//   }
+// }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 62.5%; //10px/16px = 62.5% 1rem
+}
+
+.no-highlight {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.no-highlight:focus {
+  outline: none !important;
+}
