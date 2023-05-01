@@ -1,8 +1,12 @@
+import Navbar from '@/layouts/navbar';
+import Container from '@/layouts/container';
+
 const index = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Navbar />
+      <Container>Hello World</Container>
+    </>
   );
 };
 
