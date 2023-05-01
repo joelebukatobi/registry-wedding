@@ -1,13 +1,13 @@
 const Venue = () => {
   return (
-    <section className="venue container">
+    <section className="container venue">
       <div className="venue_top">
         <div className="venue_left">
           <p>The Venue</p>
           <h2>Gino Winery Estate</h2>
           <p>
             Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-            accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler Avenue Boise, Idaho 83705
+            accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
           </p>
         </div>
         <div className="venue_right">
@@ -23,7 +23,7 @@ const Venue = () => {
             <p>Wedding Ceremony Venue</p>
             <p>
               Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler Avenue Boise, Idaho 83705
+              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
             </p>
             <button>Map of Venue</button>
           </div>
@@ -31,7 +31,7 @@ const Venue = () => {
             <p>Wedding Reception Venue</p>
             <p>
               Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler Avenue Boise, Idaho 83705
+              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
             </p>
             <button>View Hotels</button>
           </div>
