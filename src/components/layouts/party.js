@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Party = () => {
   const [bride, setBride] = useState(false);
@@ -40,25 +41,25 @@ const Party = () => {
         {groom ? (
           <>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Groomsman" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Julian Bernard</h3>
               </figcaption>
             </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Groomsman" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Julian Bernard</h3>
               </figcaption>
             </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Groomsman" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Julian Bernard</h3>
               </figcaption>
             </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Groomsman" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Julian Bernard</h3>
               </figcaption>
@@ -70,25 +71,25 @@ const Party = () => {
         {bride ? (
           <>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Bridemaid" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Jeanntte McCurdy</h3>
               </figcaption>
-            </figure>{' '}
+            </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Bridemaid" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Jeanntte McCurdy</h3>
               </figcaption>
-            </figure>{' '}
+            </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Bridemaid" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Jeanntte McCurdy</h3>
               </figcaption>
-            </figure>{' '}
+            </figure>
             <figure>
-              <img src="https://via.placeholder.com/200x200" alt="Bridemaid" />
+              <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />
               <figcaption>
                 <h3>Jeanntte McCurdy</h3>
               </figcaption>

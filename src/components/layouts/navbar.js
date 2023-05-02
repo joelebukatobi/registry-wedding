@@ -101,9 +101,9 @@ export default function Navbar({
                 <path
                   d="M4 8H20M4 16H20"
                   stroke={open ? '#fcf9f7' : '#73001d'}
-                  stroke-width="1"
-                  stroke-linecap="square"
-                  stroke-linejoin="square"
+                  strokeWidth="1"
+                  strokeLineCap="square"
+                  strokeLinejoin="square"
                 />
               </svg>
             )}
