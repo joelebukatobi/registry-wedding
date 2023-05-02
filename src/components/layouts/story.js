@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import src from '@/images/our-story.png';
+
 const Story = () => {
   return (
     <section className="story container">
@@ -17,7 +20,7 @@ const Story = () => {
         </p>
       </header>
       <div className="story_image">
-        <img src="https://via.placeholder.com/1007x566" alt="story_image" />
+        <Image src={src} alt="Our Story Image" width={1007} height={566} />
       </div>
     </section>
   );

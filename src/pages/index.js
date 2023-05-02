@@ -2,6 +2,7 @@ import Navbar from '@/layouts/navbar';
 import Container from '@/layouts/container';
 import Hero from '@/layouts/hero';
 import Divider from '@/layouts/divider';
+import Chapel from '@/layouts/chapel';
 import Story from '@/layouts/story';
 import Venue from '@/layouts/venue';
 import Party from '@/layouts/party';
@@ -45,10 +46,10 @@ const Home = ({
       <Itinerary />
       <Divider />
       <Registry />
+      <Chapel />
+      <Venue />
       <Divider />
       <RSVP />
-      <Divider />
-      <Venue />
       <Copyright />
     </>
   );

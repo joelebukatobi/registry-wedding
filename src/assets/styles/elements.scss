@@ -17,7 +17,7 @@ header {
     color: $color-burgundy;
   }
   p {
-    @apply w-[55.56%];
+    @apply w-[55.56%] text-center;
   }
   ul {
     li {

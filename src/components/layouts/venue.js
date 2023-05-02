@@ -1,42 +1,31 @@
 const Venue = () => {
   return (
     <section className="container venue">
-      <div className="venue_top">
-        <div className="venue_left">
-          <p>The Venue</p>
-          <h2>Gino Winery Estate</h2>
-          <p>
-            Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-            accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
-          </p>
+      <header>
+        <h2>The Venue</h2>
+        <p>
+          The wedding venue is located in downtown and offers a charming and romantic atmosphere with stunning views.
+          The spacious ballroom is well-lit and has ample seating for guests, a dance floor, and a dedicated area for
+          the wedding ceremony.
+        </p>
+      </header>
+
+      <main>
+        <p>
+          We want your wedding experience to be as stress-free and enjoyable as possible, which is why we understand
+          that navigating around a new city can be a bit overwhelming, especially if it's your first time visiting.
+          Click the button to find your way to the venue.
+          <br />
+          <br />
+          No 15, Wole Soyinka Avenue(Setraco), Gwarimpa Abuja.
+          <br />
+          (Close to Federal Staff Clinic)
+        </p>
+        <div>
+          <button>Wedding Ceremony</button>
+          <button>Reception Venue</button>
         </div>
-        <div className="venue_right">
-          <img src="https://via.placeholder.com/533x422.47" alt="venue_image" />
-        </div>
-      </div>
-      <div className="venue_bottom">
-        <div className="venue_right">
-          <img src="https://via.placeholder.com/533x422.47" alt="venue_image" />
-        </div>
-        <div className="venue_left">
-          <div className="venue_card">
-            <p>Wedding Ceremony Venue</p>
-            <p>
-              Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
-            </p>
-            <button>Map of Venue</button>
-          </div>
-          <div className="venue_card">
-            <p>Wedding Reception Venue</p>
-            <p>
-              Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
-              accumsan purus enim nascetur quam diam felis, fringilla varius. 4750 Tyler AvenueBoise, Idaho 83705
-            </p>
-            <button>View Hotels</button>
-          </div>
-        </div>
-      </div>
+      </main>
     </section>
   );
 };

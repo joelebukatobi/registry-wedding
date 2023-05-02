@@ -1,36 +1,11 @@
 .venue {
-  @apply my-[12rem] w-full;
+  @apply flex flex-col items-center justify-center mt-[20rem] mb-[12rem] w-full;
   //
-  &_top {
-    @apply w-[100%] flex items-center justify-between;
-  }
+  & main {
+    @apply mt-[3.2rem]  w-[55.56%] text-center;
 
-  &_bottom {
-    @apply w-[100%] flex justify-between mt-[20rem];
-  }
-
-  //
-  &_left {
-    @apply w-[40%] space-y-[3.2rem];
-    //
-    & p:first-of-type {
-      color: $color-onion;
+    & div {
+      @apply mt-[3.2rem] text-center space-x-[3.2rem];
     }
-    & h2 {
-      color: $color-burgundy;
-    }
-  }
-
-  &_right {
-    @apply w-[34.4%];
-  }
-
-  &_card {
-    & p:first-of-type {
-      color: $color-burgundy;
-    }
-    //
-    @apply space-y-[3.2rem] pb-[6.4rem];
-    //
   }
 }
