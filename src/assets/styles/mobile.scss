@@ -49,7 +49,28 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
   .navbar {
-    // display: none;
+    @apply px-[unset] relative mb-[8rem] h-[8rem];
+    //
+    & ul {
+      //
+      & li {
+        color: $color-white;
+        @apply text-[3.7rem] font-medium;
+      }
+      //
+      & li:nth-of-type(4),
+      & li:nth-of-type(5) {
+        @apply block w-[5.6rem] h-[5.6rem];
+      }
+
+      & > * {
+        &:not(:nth-of-type(4), :nth-of-type(5)) {
+          @apply hidden mb-[2.4rem];
+          color: $color-white;
+          @apply text-[3.7rem] font-medium;
+        }
+      }
+    }
   }
 }
 
