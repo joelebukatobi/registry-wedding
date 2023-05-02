@@ -1,6 +1,11 @@
-const Divider = () => {
+//
+import { useEffect } from 'react';
+const Divider = ({ AOS }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="divider container">
+    <section data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="divider container">
       <svg width="301" height="123" viewBox="0 0 301 123" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           opacity="0.2"

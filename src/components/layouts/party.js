@@ -1,10 +1,17 @@
-import { useState } from 'react';
+// React
+import { useState, useEffect } from 'react';
+// Next
 import Image from 'next/image';
 
-const Party = () => {
+const Party = ({ AOS }) => {
+  //
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  //
   const [bride, setBride] = useState(false);
   const [groom, setGroom] = useState(true);
-
+  //
   const toggle = (party) => {
     if (party === 1) {
       setGroom(!groom);
@@ -15,7 +22,7 @@ const Party = () => {
 
   return (
     <section className="party container">
-      <header>
+      <header data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <p>The Wedding Party</p>
         <div>
           <h2
@@ -37,7 +44,7 @@ const Party = () => {
         </div>
       </header>
 
-      <div className="party_row">
+      <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="party_row">
         {groom ? (
           <>
             <figure>

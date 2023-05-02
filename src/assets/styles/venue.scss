@@ -1,11 +1,7 @@
 .venue {
   @apply flex flex-col items-center justify-center mt-[20rem] mb-[12rem] w-full;
   //
-  & main {
-    @apply mt-[3.2rem]  w-[55.56%] text-center;
-
-    & div {
-      @apply mt-[3.2rem] text-center space-x-[3.2rem];
-    }
+  & div {
+    @apply mt-[3.2rem] text-center space-x-[3.2rem];
   }
 }

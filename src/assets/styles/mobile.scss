@@ -38,7 +38,7 @@
       @apply mb-[2.4rem];
     }
     & p {
-      @apply w-full;
+      @apply w-full text-justify;
     }
   }
 }
@@ -119,6 +119,10 @@
     @apply my-[8rem];
     &_card {
       @apply w-full;
+      //
+      & p {
+        @apply text-justify;
+      }
     }
   }
 }
@@ -145,8 +149,7 @@
   .venue {
     @apply my-[8rem];
 
-    & header,
-    & main {
+    & header {
       @apply w-full;
 
       & div {

@@ -1,8 +1,12 @@
-import React from 'react';
+// React
+import { useEffect } from 'react';
 
-const rsvp = () => {
+const rsvp = ({ AOS }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="rsvp container">
+    <section data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="rsvp container">
       <header>
         <h2>RSVP</h2>
         <p>

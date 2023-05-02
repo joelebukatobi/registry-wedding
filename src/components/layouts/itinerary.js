@@ -1,15 +1,19 @@
-import { useState } from 'react';
+// React
+import { useEffect } from 'react';
 
-const Itinerary = () => {
+const Itinerary = ({ AOS }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="itinerary container">
-      <header>
+      <header data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <h2>Itinerary</h2>
         <ul>
           <li>Saturday, May 13</li>
         </ul>
       </header>
-      <div className="itinerary_card">
+      <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="itinerary_card">
         <main>
           <p>10AM</p>
         </main>
@@ -22,7 +26,7 @@ const Itinerary = () => {
           </p>
         </aside>
       </div>
-      <div className="itinerary_card">
+      <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="itinerary_card">
         <main>
           <p>1PM</p>
         </main>

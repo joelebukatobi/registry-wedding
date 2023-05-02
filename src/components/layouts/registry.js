@@ -1,9 +1,17 @@
+// React
+import { useEffect } from 'react';
+// Next
 import Link from 'next/link';
+// Component
 import Image from 'next/image';
-const Registry = () => {
+//
+const Registry = ({ AOS }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="registry container">
-      <header>
+      <header data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <h2>Registry</h2>
         <p>
           {`   We feel truly blessed to have you share in our joy on our special day. Your presence at our wedding is all
@@ -13,7 +21,7 @@ const Registry = () => {
           Once you've selected your gift, you can either purchase it online or visit the store in person.`}
         </p>
       </header>
-      <main>
+      <main data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <Link href="">
           <figure>
             <Image src="https://via.placeholder.com/200x200" alt="Groomsman" width={200} height={200} />

@@ -1,10 +1,17 @@
+// React
+import { useEffect } from 'react';
+// Next
 import Image from 'next/image';
+// Components
 import src from '@/images/our-story.png';
 
-const Story = () => {
+const Story = ({ AOS }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="story container">
-      <header>
+      <header data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <h2>Our Story</h2>
         <p>
           Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros,
@@ -19,7 +26,7 @@ const Story = () => {
           Faucibus sed egestas mollis vivamus et sed sed.
         </p>
       </header>
-      <div className="story_image">
+      <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="story_image">
         <Image src={src} alt="Our Story Image" width={1007} height={566} />
       </div>
     </section>

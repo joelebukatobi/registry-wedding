@@ -11,6 +11,10 @@ import Registry from '@/layouts/registry';
 import RSVP from '@/layouts/rsvp';
 import Copyright from '@/layouts/copyright';
 
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Home = ({
   title,
   site_name,
@@ -37,20 +41,20 @@ const Home = ({
         image_width={image_width}
         image_height={image_height}
       />
-      <Hero />
-      <Divider />
-      <Story />
-      <Divider />
-      <Party />
-      <Divider />
-      <Itinerary />
-      <Divider />
-      <Registry />
-      <Chapel />
-      <Venue />
-      <Divider />
-      <RSVP />
-      <Copyright />
+      <Hero AOS={AOS} />
+      <Divider AOS={AOS} />
+      <Story AOS={AOS} />
+      <Divider AOS={AOS} />
+      <Party AOS={AOS} />
+      <Divider AOS={AOS} />
+      <Itinerary AOS={AOS} />
+      <Divider AOS={AOS} />
+      <Registry AOS={AOS} />
+      <Chapel AOS={AOS} />
+      <Venue AOS={AOS} />
+      <Divider AOS={AOS} />
+      <RSVP AOS={AOS} />
+      <Copyright AOS={AOS} />
     </>
   );
 };
