@@ -1,13 +1,15 @@
 // React
 import { useEffect } from 'react';
 
-const rsvp = ({ AOS }) => {
+const RSVP = ({ AOS }) => {
+  //
   useEffect(() => {
     AOS.init();
   }, []);
+  //
   return (
-    <section data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" className="rsvp container">
-      <header>
+    <section className="rsvp container">
+      <header data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
         <h2>RSVP</h2>
         <p>
           {`   We hope you can join us on our special day! To let us know if you can make it, please RSVP by [date] by
@@ -21,4 +23,4 @@ const rsvp = ({ AOS }) => {
   );
 };
 
-export default rsvp;
+export default RSVP;
