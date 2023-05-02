@@ -29,6 +29,10 @@
     font-size: 1.8rem;
   }
 
+  button {
+    font-size: 1.8rem;
+  }
+
   header {
     & h2 {
       @apply mb-[2.4rem];
@@ -99,9 +103,9 @@
     @apply my-[8rem] px-0;
 
     &_row {
-      @apply flex-col;
+      @apply flex flex-col items-center;
       & figure {
-        @apply mt-[4rem];
+        @apply mt-[4rem] w-[80%];
         & img {
           @apply h-[unset] w-[100%] mb-[1.6rem];
         }
@@ -123,12 +127,12 @@
   .registry {
     @apply my-[8rem];
     & a {
-      @apply w-full;
+      @apply w-full flex flex-col items-center;
     }
     & main {
       @apply flex-col;
       & figure {
-        @apply w-[100%];
+        @apply w-[80%];
         & img {
           @apply w-[100%];
         }
@@ -141,27 +145,15 @@
   .venue {
     @apply my-[8rem];
 
-    & header {
-    }
-
-    &_top {
-      @apply flex-col w-full;
-    }
-
-    &_bottom {
-      @apply flex-col-reverse w-full mt-[4rem];
-    }
-
-    &_left {
+    & header,
+    & main {
       @apply w-full;
-    }
 
-    &_right {
-      @apply w-full space-y-[1.6rem] mt-[4rem];
-    }
-
-    &_card {
-      @apply space-y-[1.6rem] pb-[2.4rem];
+      & div {
+        & button {
+          @apply w-[45%];
+        }
+      }
     }
   }
 }

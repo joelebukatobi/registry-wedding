@@ -102,7 +102,7 @@ export default function Navbar({
                   d="M4 8H20M4 16H20"
                   stroke={open ? '#fcf9f7' : '#73001d'}
                   strokeWidth="1"
-                  strokeLineCap="square"
+                  strokeLinecap="square"
                   strokeLinejoin="square"
                 />
               </svg>
