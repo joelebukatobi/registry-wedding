@@ -10,7 +10,7 @@ const Venue = () => {
           <br />
           <br />
           {`We want your wedding experience to be as stress-free and enjoyable as possible, which is why we understand
-          that navigating around a new city can be a bit overwhelming, especially if it's your first time visiting.
+          that navigating around a city can be a bit overwhelming, especially if it's your first time visiting.
           Click the button to find your way to the venue.`}
           <br />
           <br />

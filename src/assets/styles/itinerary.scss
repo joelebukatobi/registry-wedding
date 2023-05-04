@@ -4,7 +4,7 @@
   &_card {
     @apply w-[61.66%] mt-[6.4rem] flex justify-between;
     & main {
-      @apply w-[12%];
+      @apply w-[12%] pt-[1.6rem];
       & p {
         color: $color-onion;
       }

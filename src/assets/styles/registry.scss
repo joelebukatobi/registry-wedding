@@ -2,5 +2,13 @@
   @apply my-[12rem];
   & main {
     @apply mt-[8rem] gap-[4rem] flex items-center justify-center;
+
+    & figure {
+      @apply flex items-center justify-center;
+
+      & img {
+        @apply border-[.3rem] border-[#ba96a4] rounded-[.4rem];
+      }
+    }
   }
 }

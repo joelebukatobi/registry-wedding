@@ -61,9 +61,10 @@ export default function Navbar({
               : 'mt-[4rem] px-[2.4rem] bg-[unset] items-center justify-between'
           }
         >
-          <li className={open ? '!block' : 'hidden'}>Home</li>
-          <li className={open ? '!block' : 'hidden'}>Our Story</li>
+          {/* <li className={open ? '!block' : 'hidden'}>Home</li>
+          <li className={open ? '!block' : 'hidden'}>Our Story</li> */}
           <li className={open ? '!block' : 'hidden'}>Venue</li>
+          <li className={open ? '!block' : 'hidden'}>Itinerary</li>
           <li className={open ? 'absolute top-0 mt-[4rem] left-[2.4rem]' : ''}>
             <svg viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -108,7 +109,6 @@ export default function Navbar({
               </svg>
             )}
           </li>
-          <li className={open ? '!block' : 'hidden'}>Itinerary</li>
           <li className={open ? '!block' : 'hidden'}>Registry</li>
           <li className={open ? '!block' : 'hidden'}>RSVP</li>
         </ul>
