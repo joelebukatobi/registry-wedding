@@ -150,8 +150,9 @@
       @apply w-full;
 
       & div {
+        @apply w-full;
         & button {
-          @apply w-[45%];
+          @apply w-full;
         }
       }
     }

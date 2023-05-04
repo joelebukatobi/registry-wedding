@@ -42,12 +42,6 @@ const Home = ({
         image_height={image_height}
       />
       <Hero AOS={AOS} />
-      {/* <Divider AOS={AOS} /> */}
-      {/* <Story AOS={AOS} /> */}
-      {/* <Divider AOS={AOS} />
-      <Party AOS={AOS} /> */}
-      <Divider AOS={AOS} />
-      <Itinerary AOS={AOS} />
       <Chapel AOS={AOS} />
       <Venue AOS={AOS} />
       <Divider AOS={AOS} />
