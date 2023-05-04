@@ -2,8 +2,6 @@
 import { useEffect } from 'react';
 // Next
 import Image from 'next/image';
-// Components
-import src from '@/images/hero-image.png';
 // Utils
 import { images } from '@/utils/images';
 // Swiper JS
@@ -26,7 +24,6 @@ const Hero = ({ AOS }) => {
         <h4>On ~ Saturday, The 13th of May, 2023</h4>
       </div>
       <div data-aos="fade-down" data-aos-delay="600" data-aos-duration="900" className="hero_image">
-        {/* <Image src={src} alt="Hero Image" width={1121} height={659} /> */}
         <Swiper
           breakpoints={{
             768: {
